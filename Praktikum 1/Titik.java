@@ -1,5 +1,9 @@
-// Nama: Angga Syaputra
-// Nim : 24060121140137
+/*
+Titik.java 2 Sya'ban 1444 
+Nama: Angga Syaputra
+NIM : 24060121140137
+Deskripsi : Program Kelas Titik
+*/
 
 class Titik {
 		double absis;
