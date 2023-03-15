@@ -27,7 +27,7 @@ class TimSepakbola {
 	  nama = name;
 	  skor = 0;
 	  isOnMatch = false;
-
+  }
   // TODO: Fix the method below
   // Replace [TIM 1] and [TIM 2] with the correct attribute
   // [TIM 1] and [TIM 2] are commutative, so you don't need to worry if [TIM 1] or [TIM 2] refer to either this class or 'lawan'
@@ -59,7 +59,7 @@ class TimSepakbola {
       );
       return;
     }
-	this.skor = this.nama + 1;
+	this.skor = this.skor + 1;
   }
 
   // TODO: Implement getSkor() method. This is a selector to get the score for a team
