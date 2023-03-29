@@ -9,4 +9,9 @@ public class BujurSangkar extends BangunDatar{
         double luas = sisi * sisi;
         return luas;
     }
+    //Ketika BujurSangkar tidak diimplementasikan maka akan terjadi error saat compile karena file BujurSangkar
+    //karena BangunDatar merupakan abstrak yang di dalamanya terdapat metode yang harus diimplementasikan ke BujurSangkar
+        
+    //jika implementeasi metode dari abstrak tidak dibuat maka akan terjadi errpr
+    //dimana file bujursangkat tidak dapat dikompile dan tidak dianggap sebagai inherit abstract dari bangun datar
 }
