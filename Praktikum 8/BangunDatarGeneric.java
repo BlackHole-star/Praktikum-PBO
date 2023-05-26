@@ -20,5 +20,5 @@ public class BangunDatarGeneric<F extends BangunDatar>{
 	}
 }
 
-// JIka Mengubah karakter 'T' menjadi 'T2' atau karakter lain di dalam kelas BangunDatarGeneric, kode tersebut akan tetap berjalan tanpa masalah. 
+// JIka Mengubah karakter 'T' menjadi 'F' atau karakter lain di dalam kelas BangunDatarGeneric, kode tersebut akan tetap berjalan tanpa masalah. 
 //Karakter yang digunakan hanya sebagai nama variabel saja
