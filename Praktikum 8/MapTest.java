@@ -19,5 +19,12 @@ public class MapTest{
 		//bagaimana iterasi untuk mengambil keseluruhan
 		//nilai dari kunci ? tulis pada laporan anda!
 		// petunjuk : gunakan iterasi seperti program ArrayListTest
+		
+		 // Menggunakan for untuk mendefinisikan k sebagai elemen dari key
+        	// Kemudian melakukan pencetakan ke layar dengan menggunakan k itu sendiri
+        	// untuk mendapatkan value dari k, dapat menggunakan operator get()
+        	for (Integer k : key) {
+			System.out.println(k+" "+map.get(k));
+		}
 	}
 }
